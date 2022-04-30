@@ -12,9 +12,9 @@ public class Main {
     public static void main(String[] args){
             Pelicula spiderman = new Pelicula();
             Categoria _Accion = new Categoria();
-            spiderman.setNombre("Spiderman");
+            spiderman.setNombres("Spiderman");
             spiderman.setAnioEstreno(1994);
-            _Accion.setNombre("Accion");
+            _Accion.setNombres("Accion");
             spiderman.setCategoria(_Accion);
             
             
